@@ -9,7 +9,7 @@ defineProps<{
   <UDashboardNavbar
     :ui="{
       root: 'h-16 px-4 sm:px-8',
-      title: 'flex flex-col'
+      title: 'flex flex-col items-start'
     }"
   >
     <template #title>
