@@ -267,3 +267,16 @@ export interface ProductBundle {
   totalQuantity: number
   components: ProductBundleComponent[]
 }
+
+export type ProductQuantityStatus = 'Ready' | 'Pending' | 'Draft'
+
+export interface ProductQuantityItem {
+  id: string
+  location: string
+  imei: string
+  iccid: string
+  msnNumber: string
+  activationCode: string
+  vendor: string
+  status: ProductQuantityStatus
+}

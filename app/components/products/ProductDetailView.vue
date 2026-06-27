@@ -95,6 +95,7 @@ const trackingLabel = computed(() => {
           icon="i-lucide-package"
           color="neutral"
           variant="outline"
+          :to="`/products/${id}/manage-quantity`"
         />
         <UButton
           label="Edit"
